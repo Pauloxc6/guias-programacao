@@ -9,7 +9,7 @@ Este repositório reúne **guias práticos** para programadores que trabalham co
 
 ## 📋 Guias Disponíveis
 1. **Banco de Dados**
-   - [SQLite3](https://github.com/Pauloxc6/guias-programcao/blob/main/sqlite.md) – Guia completo de integração com Bash, segurança e backups.
+   - [SQLite3](https://github.com/Pauloxc6/guias-programcao/blob/main/docs/redes/database/sqlite.md) – Guia completo de integração com Bash, segurança e backups.
 2. **(Futuro)** Outros guias de programação poderão ser adicionados aqui.
 
 ---
