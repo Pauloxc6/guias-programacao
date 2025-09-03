@@ -1,5 +1,5 @@
 ![Status](https://img.shields.io/badge/status-em%20andamento-yellow)
-![Versão](https://img.shields.io/badge/version-0.1-blue)
+![Versão](https://img.shields.io/badge/version-1.0-blue)
 
 # 📖 Guia Git para desenvolvedores
 
