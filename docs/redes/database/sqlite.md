@@ -119,7 +119,7 @@ done
 sqlite3 "$DB" "SELECT * FROM usuarios WHERE nome = '$NOME';"
 
 # Seguro (placeholders):
-sqlite3 "$DB" "SELECT * FROM usuarios WHERE nome = ?;" "$NOME"
+sqlite3 -cmd ".parameter set @player '$NOME'" "$DB" "SELECT * FROM usuarios WHERE nome = @player;"
 ```
 **Validação de entrada**:
 ```bash
@@ -138,7 +138,7 @@ sqlite3 "$DB" ".backup $BACKUP_DIR/backup_$(date +%Y%m%d).db"
 ```
 
 **Criptografia com OpenSSL**:
-```
+```bash
 SENHA_CRIPTOGRAFADA=$(echo "senha_secreta" | openssl enc -aes-256-cbc -salt -a)
 sqlite3 "$DB" "INSERT INTO usuarios (nome, senha) VALUES ('joao', '$SENHA_CRIPTOGRAFADA');"
 ```
