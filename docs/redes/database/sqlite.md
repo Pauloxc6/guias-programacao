@@ -1,5 +1,5 @@
 ![Status](https://img.shields.io/badge/status-completo-brightgreen)
-![Versão](https://img.shields.io/badge/version-1.0-blue)
+![Versão](https://img.shields.io/badge/version-1.1-blue)
 
 # 📖 Guia SQLite3 com Bash Scripting e Segurança
 
